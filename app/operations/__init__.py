@@ -1,5 +1,13 @@
 #operations.py
+"""
+For this module, we will use Object-Oriented Programming (OOP) principles to create a class called Operation.
+This class will contain methods for basic arithmetic operations: addition, subtraction, multiplication, and division.
 
+Instead of creating a separate function for each operation, we will define static methods within the Operation class.
+Static methods allow us to call these methods without needing to create an instance of the class.
+This allows us to group related operations together and makes the code more organized and reusable.
+
+"""
 
 class Operation:
 
